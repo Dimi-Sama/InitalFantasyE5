@@ -35,8 +35,7 @@ namespace Jeux_E5
                 (bool hit2, int damage2) = Attack(target);
 
                 // Calcule le total des dégâts
-                int totalDamage = damage1 + damage2;
-
+                int totalDamage = damage1 + damage2 * 2;
                 return totalDamage;
             }
             else

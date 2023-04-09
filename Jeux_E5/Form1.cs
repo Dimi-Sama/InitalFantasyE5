@@ -85,11 +85,11 @@ namespace Jeux_E5
 
             if (attackResult.Item1)
             {
-                AnimateText($"{player.Name} attaque {monster.Name} et inflige {attackResult.Item2} points de dégâts !");
+                AnimateText($"{player.Name} inflige {attackResult.Item2} points de dégâts !");
             }
             else
             {
-                AnimateText($"{player.Name} attaque {monster.Name} mais rate son attaque !");
+                AnimateText($"{player.Name} rate son attaque !");
             }
 
             if (monster.Health <= 0)
@@ -219,13 +219,13 @@ namespace Jeux_E5
                 playSimpleSound("victory_fanfare_hd");
                 LoadAnimatedGif("_207000106_Win_Before", "_306001304_Dying");
 
-                GameOverDialog($"{player.Name} a vaincu le monstre ! Félicitations !");
+                GameOverDialog($"{player.Name} a vaincu le {monster.Name} ! Félicitations !");
             }
             else if (player.Health <= 0)
             {
                 playSimpleSound("death_sound_effect");
                 LoadAnimatedGif("_207000106_Dead", "_306001304_Win");
-                GameOverDialog("Le monstre a vaincu le joueur. Essayez à nouveau.");
+                GameOverDialog($"Le {monster.Name} a vaincu le joueur. Essayez à nouveau.");
             }
         }
 

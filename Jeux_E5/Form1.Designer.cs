@@ -58,6 +58,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Image = Properties.Resources.textbox_pieces_1_;
             pictureBox1.Location = new Point(400, 536);
             pictureBox1.Name = "pictureBox1";
@@ -68,6 +69,7 @@
             // 
             // actionLabel
             // 
+            actionLabel.Anchor = AnchorStyles.None;
             actionLabel.AutoSize = true;
             actionLabel.BackColor = Color.Navy;
             actionLabel.Font = new Font("Goudy Old Style", 24F, FontStyle.Bold, GraphicsUnit.Point);
@@ -80,6 +82,7 @@
             // 
             // Cloud
             // 
+            Cloud.Anchor = AnchorStyles.None;
             Cloud.BackColor = Color.Transparent;
             Cloud.BackgroundImageLayout = ImageLayout.Zoom;
             Cloud.Image = Properties.Resources._207000106_Idle;
@@ -92,6 +95,7 @@
             // 
             // healButton
             // 
+            healButton.Anchor = AnchorStyles.None;
             healButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             healButton.ForeColor = SystemColors.ControlLightLight;
             healButton.Image = Properties.Resources.textbox_pieces_1_;
@@ -105,6 +109,7 @@
             // 
             // doubleAttackButton
             // 
+            doubleAttackButton.Anchor = AnchorStyles.None;
             doubleAttackButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             doubleAttackButton.ForeColor = SystemColors.ControlLightLight;
             doubleAttackButton.Image = Properties.Resources.textbox_pieces_1_;
@@ -118,6 +123,7 @@
             // 
             // attackButton
             // 
+            attackButton.Anchor = AnchorStyles.None;
             attackButton.BackgroundImageLayout = ImageLayout.None;
             attackButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             attackButton.ForeColor = SystemColors.ControlLightLight;
@@ -132,15 +138,17 @@
             // 
             // playerHealthBar
             // 
+            playerHealthBar.Anchor = AnchorStyles.None;
             playerHealthBar.BackColor = Color.Black;
             playerHealthBar.ForeColor = Color.Chartreuse;
-            playerHealthBar.Location = new Point(854, 376);
+            playerHealthBar.Location = new Point(796, 376);
             playerHealthBar.Name = "playerHealthBar";
-            playerHealthBar.Size = new Size(189, 23);
+            playerHealthBar.Size = new Size(247, 23);
             playerHealthBar.TabIndex = 6;
             // 
             // monsterHealthBar
             // 
+            monsterHealthBar.Anchor = AnchorStyles.None;
             monsterHealthBar.BackColor = Color.Black;
             monsterHealthBar.ForeColor = Color.Chartreuse;
             monsterHealthBar.Location = new Point(133, 376);
@@ -150,6 +158,7 @@
             // 
             // Monster
             // 
+            Monster.Anchor = AnchorStyles.None;
             Monster.BackColor = Color.Transparent;
             Monster.BackgroundImageLayout = ImageLayout.Zoom;
             Monster.Image = Properties.Resources._306001303_Standby;
@@ -162,6 +171,7 @@
             // 
             // playerNameLabel
             // 
+            playerNameLabel.Anchor = AnchorStyles.None;
             playerNameLabel.AutoSize = true;
             playerNameLabel.BackColor = Color.Navy;
             playerNameLabel.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -174,6 +184,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Anchor = AnchorStyles.None;
             pictureBox2.Image = Properties.Resources.textbox_pieces_1_;
             pictureBox2.Location = new Point(100, 109);
             pictureBox2.Name = "pictureBox2";
@@ -184,6 +195,7 @@
             // 
             // monsterNameLabel
             // 
+            monsterNameLabel.Anchor = AnchorStyles.None;
             monsterNameLabel.AutoSize = true;
             monsterNameLabel.BackColor = Color.Navy;
             monsterNameLabel.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -196,6 +208,7 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.Anchor = AnchorStyles.None;
             pictureBox3.Image = Properties.Resources.textbox_pieces_1_;
             pictureBox3.Location = new Point(796, 109);
             pictureBox3.Name = "pictureBox3";
@@ -206,6 +219,7 @@
             // 
             // lblMonsterStats
             // 
+            lblMonsterStats.Anchor = AnchorStyles.None;
             lblMonsterStats.AutoSize = true;
             lblMonsterStats.BackColor = Color.Navy;
             lblMonsterStats.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -218,6 +232,7 @@
             // 
             // lblPlayerStats
             // 
+            lblPlayerStats.Anchor = AnchorStyles.None;
             lblPlayerStats.AutoSize = true;
             lblPlayerStats.BackColor = Color.Navy;
             lblPlayerStats.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);

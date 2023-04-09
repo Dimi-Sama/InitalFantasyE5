@@ -27,8 +27,8 @@ namespace Jeux_E5
         }
         public (bool, int) Attack(Combatant target)
         {
-            int missChance = 20;
-            int critChance = 10;
+            int missChance = 5;
+            int critChance = 20;
             int minDamage = (int)(Damage * 0.8);
             int maxDamage = (int)(Damage * 1.2);
 
