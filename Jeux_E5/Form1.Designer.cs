@@ -85,8 +85,8 @@
             Cloud.Image = Properties.Resources._207000106_Idle;
             Cloud.Location = new Point(796, 192);
             Cloud.Name = "Cloud";
-            Cloud.Size = new Size(247, 178);
-            Cloud.SizeMode = PictureBoxSizeMode.StretchImage;
+            Cloud.Size = new Size(252, 185);
+            Cloud.SizeMode = PictureBoxSizeMode.Zoom;
             Cloud.TabIndex = 2;
             Cloud.TabStop = false;
             // 
@@ -156,7 +156,7 @@
             Monster.Location = new Point(133, 192);
             Monster.Name = "Monster";
             Monster.Size = new Size(182, 178);
-            Monster.SizeMode = PictureBoxSizeMode.StretchImage;
+            Monster.SizeMode = PictureBoxSizeMode.Zoom;
             Monster.TabIndex = 7;
             Monster.TabStop = false;
             // 

@@ -63,6 +63,16 @@ namespace Jeux_E5.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _207000106_Dead {
+            get {
+                object obj = ResourceManager.GetObject("_207000106_Dead", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _207000106_Idle {
             get {
                 object obj = ResourceManager.GetObject("207000106 Idle", resourceCulture);
@@ -93,10 +103,39 @@ namespace Jeux_E5.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _306001304_Dying {
+            get {
+                object obj = ResourceManager.GetObject("_306001304_Dying", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _306001304_Win {
+            get {
+                object obj = ResourceManager.GetObject("_306001304_Win", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _646a5645d72ad40dbc18fcfcebb2ff03_700x400 {
             get {
                 object obj = ResourceManager.GetObject("646a5645d72ad40dbc18fcfcebb2ff03-700x400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream death_sound_effect {
+            get {
+                return ResourceManager.GetStream("death_sound_effect", resourceCulture);
             }
         }
         

@@ -24,7 +24,7 @@ namespace Jeux_E5
 
         private void playSimpleSound(string file)
         {
-            SoundPlayer simpleSound = new SoundPlayer(file);
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(file));
             simpleSound.Play();
         }
         private void EnableButtons(bool enable)
@@ -33,9 +33,10 @@ namespace Jeux_E5
             healButton.Enabled = enable;
             doubleAttackButton.Enabled = enable;
         }
-        private void LoadAnimatedGif(string filePath)
+        private void LoadAnimatedGif(string filePath, string filePathM)
         {
-            Cloud.Load(filePath);
+            Cloud.Image = Properties.Resources.ResourceManager.GetObject(filePath) as Image;
+            Monster.Image = Properties.Resources.ResourceManager.GetObject(filePathM) as Image;
         }
 
         private void AnimateText(string text)
@@ -93,6 +94,7 @@ namespace Jeux_E5
 
             if (monster.Health <= 0)
             {
+                isPlayerTurn = false;
                 return;
             }
             else
@@ -174,7 +176,7 @@ namespace Jeux_E5
             InitializeComponent();
             GameOver += MainForm_GameOver; // S'abonner à l'événement GameOver
             InitializeGame();
-            playSimpleSound("C:\\Users\\Administrator\\Source\\Repos\\StephD974\\OctopathE5\\Jeux_E5\\Resources\\let-the-battles-begin.wav");
+            playSimpleSound("let_the_battles_begin");
         }
 
         private void attackButton_Click_1(object sender, EventArgs e)
@@ -196,8 +198,8 @@ namespace Jeux_E5
             }
             else
             {
+                EnableButtons(false);
                 AnimateText("Pas assez de mana pour effectuer une double attaque !");
-                PlayerTurn();
 
             }
         }
@@ -214,13 +216,15 @@ namespace Jeux_E5
         {
             if (monster.Health <= 0)
             {
-                playSimpleSound("C:\\Users\\Administrator\\Source\\Repos\\StephD974\\OctopathE5\\Jeux_E5\\Resources\\victory-fanfare-hd.wav");
-                LoadAnimatedGif("C:\\Users\\Administrator\\Source\\Repos\\StephD974\\OctopathE5\\Jeux_E5\\Resources\\207000106 Win Before.gif");
+                playSimpleSound("victory_fanfare_hd");
+                LoadAnimatedGif("_207000106_Win_Before", "_306001304_Dying");
 
                 GameOverDialog($"{player.Name} a vaincu le monstre ! Félicitations !");
             }
             else if (player.Health <= 0)
             {
+                playSimpleSound("death_sound_effect");
+                LoadAnimatedGif("_207000106_Dead", "_306001304_Win");
                 GameOverDialog("Le monstre a vaincu le joueur. Essayez à nouveau.");
             }
         }
@@ -251,8 +255,8 @@ namespace Jeux_E5
             player.ResetStats();
             monster.ResetStats();
             UpdateHealthBars();
-            playSimpleSound("C:\\Users\\Administrator\\Source\\Repos\\StephD974\\OctopathE5\\Jeux_E5\\Resources\\let-the-battles-begin.wav"); // Remplacez par le chemin du fichier audio normal
-            LoadAnimatedGif("C:\\Users\\Administrator\\Source\\Repos\\StephD974\\OctopathE5\\Jeux_E5\\Resources\\207000106 Idle.gif"); // Remplacez par le chemin du fichier GIF animé normal
+            playSimpleSound("let_the_battles_begin"); // Remplacez par le chemin du fichier audio normal
+            LoadAnimatedGif("207000106 Idle", "306001303 Standby");
 
             await Task.Delay(1000); // Attendez 1 seconde avant de commencer le nouveau combat
             AnimateText("Un nouveau combat commence !");
