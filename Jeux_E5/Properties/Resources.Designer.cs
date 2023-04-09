@@ -63,10 +63,68 @@ namespace Jeux_E5.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _207000106_Idle {
+            get {
+                object obj = ResourceManager.GetObject("207000106 Idle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _207000106_Win_Before {
+            get {
+                object obj = ResourceManager.GetObject("_207000106_Win_Before", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _306001303_Standby {
+            get {
+                object obj = ResourceManager.GetObject("306001303 Standby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _646a5645d72ad40dbc18fcfcebb2ff03_700x400 {
             get {
                 object obj = ResourceManager.GetObject("646a5645d72ad40dbc18fcfcebb2ff03-700x400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream let_the_battles_begin {
+            get {
+                return ResourceManager.GetStream("let_the_battles_begin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap textbox_pieces_1_ {
+            get {
+                object obj = ResourceManager.GetObject("textbox_pieces(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream victory_fanfare_hd {
+            get {
+                return ResourceManager.GetStream("victory_fanfare_hd", resourceCulture);
             }
         }
     }
