@@ -199,7 +199,7 @@ namespace Jeux_E5
             else
             {
                 EnableButtons(false);
-                AnimateText("Pas assez de mana pour effectuer une double attaque !");
+                AnimateText("Pas assez de mana pour effectuer \n une double attaque !");
 
             }
         }

@@ -72,11 +72,11 @@
             actionLabel.Anchor = AnchorStyles.None;
             actionLabel.AutoSize = true;
             actionLabel.BackColor = Color.Navy;
-            actionLabel.Font = new Font("Goudy Old Style", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            actionLabel.Font = new Font("Alagard", 24F, FontStyle.Bold, GraphicsUnit.Point);
             actionLabel.ForeColor = SystemColors.ControlLightLight;
             actionLabel.Location = new Point(419, 551);
             actionLabel.Name = "actionLabel";
-            actionLabel.Size = new Size(73, 37);
+            actionLabel.Size = new Size(79, 30);
             actionLabel.TabIndex = 1;
             actionLabel.Text = "Test";
             // 
@@ -96,7 +96,7 @@
             // healButton
             // 
             healButton.Anchor = AnchorStyles.None;
-            healButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            healButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             healButton.ForeColor = SystemColors.ControlLightLight;
             healButton.Image = Properties.Resources.textbox_pieces_1_;
             healButton.Location = new Point(12, 614);
@@ -110,7 +110,7 @@
             // doubleAttackButton
             // 
             doubleAttackButton.Anchor = AnchorStyles.None;
-            doubleAttackButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            doubleAttackButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             doubleAttackButton.ForeColor = SystemColors.ControlLightLight;
             doubleAttackButton.Image = Properties.Resources.textbox_pieces_1_;
             doubleAttackButton.Location = new Point(12, 551);
@@ -125,7 +125,7 @@
             // 
             attackButton.Anchor = AnchorStyles.None;
             attackButton.BackgroundImageLayout = ImageLayout.None;
-            attackButton.Font = new Font("Goudy Old Style", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            attackButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             attackButton.ForeColor = SystemColors.ControlLightLight;
             attackButton.Image = Properties.Resources.textbox_pieces_1_;
             attackButton.Location = new Point(12, 490);
@@ -174,11 +174,11 @@
             playerNameLabel.Anchor = AnchorStyles.None;
             playerNameLabel.AutoSize = true;
             playerNameLabel.BackColor = Color.Navy;
-            playerNameLabel.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            playerNameLabel.Font = new Font("Alagard", 12F, FontStyle.Bold, GraphicsUnit.Point);
             playerNameLabel.ForeColor = Color.White;
             playerNameLabel.Location = new Point(806, 118);
             playerNameLabel.Name = "playerNameLabel";
-            playerNameLabel.Size = new Size(51, 21);
+            playerNameLabel.Size = new Size(53, 15);
             playerNameLabel.TabIndex = 9;
             playerNameLabel.Text = "Cloud";
             // 
@@ -198,11 +198,11 @@
             monsterNameLabel.Anchor = AnchorStyles.None;
             monsterNameLabel.AutoSize = true;
             monsterNameLabel.BackColor = Color.Navy;
-            monsterNameLabel.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            monsterNameLabel.Font = new Font("Alagard", 12F, FontStyle.Bold, GraphicsUnit.Point);
             monsterNameLabel.ForeColor = Color.White;
             monsterNameLabel.Location = new Point(109, 118);
             monsterNameLabel.Name = "monsterNameLabel";
-            monsterNameLabel.Size = new Size(61, 21);
+            monsterNameLabel.Size = new Size(71, 15);
             monsterNameLabel.TabIndex = 10;
             monsterNameLabel.Text = "Dracky ";
             // 
@@ -222,11 +222,11 @@
             lblMonsterStats.Anchor = AnchorStyles.None;
             lblMonsterStats.AutoSize = true;
             lblMonsterStats.BackColor = Color.Navy;
-            lblMonsterStats.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblMonsterStats.Font = new Font("Alagard", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             lblMonsterStats.ForeColor = Color.White;
             lblMonsterStats.Location = new Point(109, 139);
             lblMonsterStats.Name = "lblMonsterStats";
-            lblMonsterStats.Size = new Size(48, 21);
+            lblMonsterStats.Size = new Size(44, 12);
             lblMonsterStats.TabIndex = 13;
             lblMonsterStats.Text = "label1";
             // 
@@ -235,11 +235,11 @@
             lblPlayerStats.Anchor = AnchorStyles.None;
             lblPlayerStats.AutoSize = true;
             lblPlayerStats.BackColor = Color.Navy;
-            lblPlayerStats.Font = new Font("Goudy Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblPlayerStats.Font = new Font("Alagard", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             lblPlayerStats.ForeColor = Color.White;
             lblPlayerStats.Location = new Point(809, 139);
             lblPlayerStats.Name = "lblPlayerStats";
-            lblPlayerStats.Size = new Size(48, 21);
+            lblPlayerStats.Size = new Size(44, 12);
             lblPlayerStats.TabIndex = 14;
             lblPlayerStats.Text = "label1";
             // 
