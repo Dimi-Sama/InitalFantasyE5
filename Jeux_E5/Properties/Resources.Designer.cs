@@ -151,6 +151,16 @@ namespace Jeux_E5.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_portfolio {
+            get {
+                object obj = ResourceManager.GetObject("logo portfolio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap textbox_pieces_1_ {
             get {
                 object obj = ResourceManager.GetObject("textbox_pieces(1)", resourceCulture);

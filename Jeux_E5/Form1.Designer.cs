@@ -28,255 +28,284 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            textAnimationTimer = new System.Windows.Forms.Timer(components);
-            pictureBox1 = new PictureBox();
-            actionLabel = new Label();
-            Cloud = new PictureBox();
-            healButton = new Button();
-            doubleAttackButton = new Button();
-            attackButton = new Button();
-            playerHealthBar = new ProgressBar();
-            monsterHealthBar = new ProgressBar();
-            Monster = new PictureBox();
-            playerNameLabel = new Label();
-            pictureBox2 = new PictureBox();
-            monsterNameLabel = new Label();
-            pictureBox3 = new PictureBox();
-            lblMonsterStats = new Label();
-            lblPlayerStats = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)Cloud).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)Monster).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.textAnimationTimer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.actionLabel = new System.Windows.Forms.Label();
+            this.Cloud = new System.Windows.Forms.PictureBox();
+            this.healButton = new System.Windows.Forms.Button();
+            this.doubleAttackButton = new System.Windows.Forms.Button();
+            this.attackButton = new System.Windows.Forms.Button();
+            this.playerHealthBar = new System.Windows.Forms.ProgressBar();
+            this.monsterHealthBar = new System.Windows.Forms.ProgressBar();
+            this.Monster = new System.Windows.Forms.PictureBox();
+            this.playerNameLabel = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.monsterNameLabel = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.lblMonsterStats = new System.Windows.Forms.Label();
+            this.lblPlayerStats = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cloud)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Monster)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.SuspendLayout();
             // 
             // textAnimationTimer
             // 
-            textAnimationTimer.Interval = 50;
+            this.textAnimationTimer.Interval = 50;
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.Image = Properties.Resources.textbox_pieces_1_;
-            pictureBox1.Location = new Point(400, 536);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(772, 133);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.pictureBox1.Location = new System.Drawing.Point(400, 536);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(772, 133);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // actionLabel
             // 
-            actionLabel.Anchor = AnchorStyles.None;
-            actionLabel.AutoSize = true;
-            actionLabel.BackColor = Color.Navy;
-            actionLabel.Font = new Font("Alagard", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            actionLabel.ForeColor = SystemColors.ControlLightLight;
-            actionLabel.Location = new Point(419, 551);
-            actionLabel.Name = "actionLabel";
-            actionLabel.Size = new Size(79, 30);
-            actionLabel.TabIndex = 1;
-            actionLabel.Text = "Test";
+            this.actionLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.actionLabel.AutoSize = true;
+            this.actionLabel.BackColor = System.Drawing.Color.Navy;
+            this.actionLabel.Font = new System.Drawing.Font("Alagard", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.actionLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.actionLabel.Location = new System.Drawing.Point(419, 551);
+            this.actionLabel.Name = "actionLabel";
+            this.actionLabel.Size = new System.Drawing.Size(79, 30);
+            this.actionLabel.TabIndex = 1;
+            this.actionLabel.Text = "Test";
             // 
             // Cloud
             // 
-            Cloud.Anchor = AnchorStyles.None;
-            Cloud.BackColor = Color.Transparent;
-            Cloud.BackgroundImageLayout = ImageLayout.Zoom;
-            Cloud.Image = Properties.Resources._207000106_Idle;
-            Cloud.Location = new Point(796, 192);
-            Cloud.Name = "Cloud";
-            Cloud.Size = new Size(252, 185);
-            Cloud.SizeMode = PictureBoxSizeMode.Zoom;
-            Cloud.TabIndex = 2;
-            Cloud.TabStop = false;
+            this.Cloud.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Cloud.BackColor = System.Drawing.Color.Transparent;
+            this.Cloud.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Cloud.Image = global::Jeux_E5.Properties.Resources._207000106_Idle;
+            this.Cloud.Location = new System.Drawing.Point(796, 192);
+            this.Cloud.Name = "Cloud";
+            this.Cloud.Size = new System.Drawing.Size(252, 185);
+            this.Cloud.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Cloud.TabIndex = 2;
+            this.Cloud.TabStop = false;
             // 
             // healButton
             // 
-            healButton.Anchor = AnchorStyles.None;
-            healButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
-            healButton.ForeColor = SystemColors.ControlLightLight;
-            healButton.Image = Properties.Resources.textbox_pieces_1_;
-            healButton.Location = new Point(12, 614);
-            healButton.Name = "healButton";
-            healButton.Size = new Size(371, 55);
-            healButton.TabIndex = 3;
-            healButton.Text = "Heal";
-            healButton.UseVisualStyleBackColor = true;
-            healButton.Click += healButton_Click;
+            this.healButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.healButton.Font = new System.Drawing.Font("Alagard", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.healButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.healButton.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.healButton.Location = new System.Drawing.Point(12, 614);
+            this.healButton.Name = "healButton";
+            this.healButton.Size = new System.Drawing.Size(371, 55);
+            this.healButton.TabIndex = 3;
+            this.healButton.Text = "Heal";
+            this.healButton.UseVisualStyleBackColor = true;
+            this.healButton.Click += new System.EventHandler(this.healButton_Click_1);
             // 
             // doubleAttackButton
             // 
-            doubleAttackButton.Anchor = AnchorStyles.None;
-            doubleAttackButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
-            doubleAttackButton.ForeColor = SystemColors.ControlLightLight;
-            doubleAttackButton.Image = Properties.Resources.textbox_pieces_1_;
-            doubleAttackButton.Location = new Point(12, 551);
-            doubleAttackButton.Name = "doubleAttackButton";
-            doubleAttackButton.Size = new Size(371, 55);
-            doubleAttackButton.TabIndex = 4;
-            doubleAttackButton.Text = "Double Attack";
-            doubleAttackButton.UseVisualStyleBackColor = true;
-            doubleAttackButton.Click += doubleAttackButton_Click;
+            this.doubleAttackButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.doubleAttackButton.Font = new System.Drawing.Font("Alagard", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.doubleAttackButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.doubleAttackButton.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.doubleAttackButton.Location = new System.Drawing.Point(12, 551);
+            this.doubleAttackButton.Name = "doubleAttackButton";
+            this.doubleAttackButton.Size = new System.Drawing.Size(371, 55);
+            this.doubleAttackButton.TabIndex = 4;
+            this.doubleAttackButton.Text = "Double Attack";
+            this.doubleAttackButton.UseVisualStyleBackColor = true;
+            this.doubleAttackButton.Click += new System.EventHandler(this.doubleAttackButton_Click_1);
             // 
             // attackButton
             // 
-            attackButton.Anchor = AnchorStyles.None;
-            attackButton.BackgroundImageLayout = ImageLayout.None;
-            attackButton.Font = new Font("Alagard", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
-            attackButton.ForeColor = SystemColors.ControlLightLight;
-            attackButton.Image = Properties.Resources.textbox_pieces_1_;
-            attackButton.Location = new Point(12, 490);
-            attackButton.Name = "attackButton";
-            attackButton.Size = new Size(371, 55);
-            attackButton.TabIndex = 5;
-            attackButton.Text = "Attack";
-            attackButton.UseVisualStyleBackColor = true;
-            attackButton.Click += attackButton_Click_1;
+            this.attackButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.attackButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.attackButton.Font = new System.Drawing.Font("Alagard", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.attackButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.attackButton.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.attackButton.Location = new System.Drawing.Point(12, 490);
+            this.attackButton.Name = "attackButton";
+            this.attackButton.Size = new System.Drawing.Size(371, 55);
+            this.attackButton.TabIndex = 5;
+            this.attackButton.Text = "Attack";
+            this.attackButton.UseVisualStyleBackColor = true;
+            this.attackButton.Click += new System.EventHandler(this.attackButton_Click_1);
             // 
             // playerHealthBar
             // 
-            playerHealthBar.Anchor = AnchorStyles.None;
-            playerHealthBar.BackColor = Color.Black;
-            playerHealthBar.ForeColor = Color.Chartreuse;
-            playerHealthBar.Location = new Point(796, 376);
-            playerHealthBar.Name = "playerHealthBar";
-            playerHealthBar.Size = new Size(247, 23);
-            playerHealthBar.TabIndex = 6;
+            this.playerHealthBar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.playerHealthBar.BackColor = System.Drawing.Color.Black;
+            this.playerHealthBar.ForeColor = System.Drawing.Color.Chartreuse;
+            this.playerHealthBar.Location = new System.Drawing.Point(796, 376);
+            this.playerHealthBar.Name = "playerHealthBar";
+            this.playerHealthBar.Size = new System.Drawing.Size(247, 23);
+            this.playerHealthBar.TabIndex = 6;
             // 
             // monsterHealthBar
             // 
-            monsterHealthBar.Anchor = AnchorStyles.None;
-            monsterHealthBar.BackColor = Color.Black;
-            monsterHealthBar.ForeColor = Color.Chartreuse;
-            monsterHealthBar.Location = new Point(133, 376);
-            monsterHealthBar.Name = "monsterHealthBar";
-            monsterHealthBar.Size = new Size(182, 23);
-            monsterHealthBar.TabIndex = 8;
+            this.monsterHealthBar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.monsterHealthBar.BackColor = System.Drawing.Color.Black;
+            this.monsterHealthBar.ForeColor = System.Drawing.Color.Chartreuse;
+            this.monsterHealthBar.Location = new System.Drawing.Point(133, 376);
+            this.monsterHealthBar.Name = "monsterHealthBar";
+            this.monsterHealthBar.Size = new System.Drawing.Size(182, 23);
+            this.monsterHealthBar.TabIndex = 8;
             // 
             // Monster
             // 
-            Monster.Anchor = AnchorStyles.None;
-            Monster.BackColor = Color.Transparent;
-            Monster.BackgroundImageLayout = ImageLayout.Zoom;
-            Monster.Image = Properties.Resources._306001303_Standby;
-            Monster.Location = new Point(133, 192);
-            Monster.Name = "Monster";
-            Monster.Size = new Size(182, 178);
-            Monster.SizeMode = PictureBoxSizeMode.Zoom;
-            Monster.TabIndex = 7;
-            Monster.TabStop = false;
+            this.Monster.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Monster.BackColor = System.Drawing.Color.Transparent;
+            this.Monster.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Monster.Image = global::Jeux_E5.Properties.Resources._306001303_Standby;
+            this.Monster.Location = new System.Drawing.Point(133, 192);
+            this.Monster.Name = "Monster";
+            this.Monster.Size = new System.Drawing.Size(182, 178);
+            this.Monster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Monster.TabIndex = 7;
+            this.Monster.TabStop = false;
             // 
             // playerNameLabel
             // 
-            playerNameLabel.Anchor = AnchorStyles.None;
-            playerNameLabel.AutoSize = true;
-            playerNameLabel.BackColor = Color.Navy;
-            playerNameLabel.Font = new Font("Alagard", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            playerNameLabel.ForeColor = Color.White;
-            playerNameLabel.Location = new Point(806, 118);
-            playerNameLabel.Name = "playerNameLabel";
-            playerNameLabel.Size = new Size(53, 15);
-            playerNameLabel.TabIndex = 9;
-            playerNameLabel.Text = "Cloud";
+            this.playerNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.playerNameLabel.AutoSize = true;
+            this.playerNameLabel.BackColor = System.Drawing.Color.Navy;
+            this.playerNameLabel.Font = new System.Drawing.Font("Alagard", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.playerNameLabel.ForeColor = System.Drawing.Color.White;
+            this.playerNameLabel.Location = new System.Drawing.Point(806, 118);
+            this.playerNameLabel.Name = "playerNameLabel";
+            this.playerNameLabel.Size = new System.Drawing.Size(53, 15);
+            this.playerNameLabel.TabIndex = 9;
+            this.playerNameLabel.Text = "Cloud";
             // 
             // pictureBox2
             // 
-            pictureBox2.Anchor = AnchorStyles.None;
-            pictureBox2.Image = Properties.Resources.textbox_pieces_1_;
-            pictureBox2.Location = new Point(100, 109);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(247, 64);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 11;
-            pictureBox2.TabStop = false;
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.pictureBox2.Location = new System.Drawing.Point(100, 109);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(247, 64);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
             // 
             // monsterNameLabel
             // 
-            monsterNameLabel.Anchor = AnchorStyles.None;
-            monsterNameLabel.AutoSize = true;
-            monsterNameLabel.BackColor = Color.Navy;
-            monsterNameLabel.Font = new Font("Alagard", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            monsterNameLabel.ForeColor = Color.White;
-            monsterNameLabel.Location = new Point(109, 118);
-            monsterNameLabel.Name = "monsterNameLabel";
-            monsterNameLabel.Size = new Size(71, 15);
-            monsterNameLabel.TabIndex = 10;
-            monsterNameLabel.Text = "Dracky ";
+            this.monsterNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.monsterNameLabel.AutoSize = true;
+            this.monsterNameLabel.BackColor = System.Drawing.Color.Navy;
+            this.monsterNameLabel.Font = new System.Drawing.Font("Alagard", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.monsterNameLabel.ForeColor = System.Drawing.Color.White;
+            this.monsterNameLabel.Location = new System.Drawing.Point(109, 118);
+            this.monsterNameLabel.Name = "monsterNameLabel";
+            this.monsterNameLabel.Size = new System.Drawing.Size(71, 15);
+            this.monsterNameLabel.TabIndex = 10;
+            this.monsterNameLabel.Text = "Dracky ";
             // 
             // pictureBox3
             // 
-            pictureBox3.Anchor = AnchorStyles.None;
-            pictureBox3.Image = Properties.Resources.textbox_pieces_1_;
-            pictureBox3.Location = new Point(796, 109);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(247, 64);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 12;
-            pictureBox3.TabStop = false;
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox3.Image = global::Jeux_E5.Properties.Resources.textbox_pieces_1_;
+            this.pictureBox3.Location = new System.Drawing.Point(796, 109);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(247, 64);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
             // 
             // lblMonsterStats
             // 
-            lblMonsterStats.Anchor = AnchorStyles.None;
-            lblMonsterStats.AutoSize = true;
-            lblMonsterStats.BackColor = Color.Navy;
-            lblMonsterStats.Font = new Font("Alagard", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            lblMonsterStats.ForeColor = Color.White;
-            lblMonsterStats.Location = new Point(109, 139);
-            lblMonsterStats.Name = "lblMonsterStats";
-            lblMonsterStats.Size = new Size(44, 12);
-            lblMonsterStats.TabIndex = 13;
-            lblMonsterStats.Text = "label1";
+            this.lblMonsterStats.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblMonsterStats.AutoSize = true;
+            this.lblMonsterStats.BackColor = System.Drawing.Color.Navy;
+            this.lblMonsterStats.Font = new System.Drawing.Font("Alagard", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMonsterStats.ForeColor = System.Drawing.Color.White;
+            this.lblMonsterStats.Location = new System.Drawing.Point(109, 139);
+            this.lblMonsterStats.Name = "lblMonsterStats";
+            this.lblMonsterStats.Size = new System.Drawing.Size(44, 12);
+            this.lblMonsterStats.TabIndex = 13;
+            this.lblMonsterStats.Text = "label1";
             // 
             // lblPlayerStats
             // 
-            lblPlayerStats.Anchor = AnchorStyles.None;
-            lblPlayerStats.AutoSize = true;
-            lblPlayerStats.BackColor = Color.Navy;
-            lblPlayerStats.Font = new Font("Alagard", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            lblPlayerStats.ForeColor = Color.White;
-            lblPlayerStats.Location = new Point(809, 139);
-            lblPlayerStats.Name = "lblPlayerStats";
-            lblPlayerStats.Size = new Size(44, 12);
-            lblPlayerStats.TabIndex = 14;
-            lblPlayerStats.Text = "label1";
+            this.lblPlayerStats.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPlayerStats.AutoSize = true;
+            this.lblPlayerStats.BackColor = System.Drawing.Color.Navy;
+            this.lblPlayerStats.Font = new System.Drawing.Font("Alagard", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPlayerStats.ForeColor = System.Drawing.Color.White;
+            this.lblPlayerStats.Location = new System.Drawing.Point(809, 139);
+            this.lblPlayerStats.Name = "lblPlayerStats";
+            this.lblPlayerStats.Size = new System.Drawing.Size(44, 12);
+            this.lblPlayerStats.TabIndex = 14;
+            this.lblPlayerStats.Text = "label1";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::Jeux_E5.Properties.Resources.logo_portfolio;
+            this.pictureBox4.Location = new System.Drawing.Point(1072, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 78);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Thunderstrike Laser", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(829, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(237, 19);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Created by ChizuSama_";
             // 
             // OctopathE5
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources._646a5645d72ad40dbc18fcfcebb2ff03_700x400;
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1184, 681);
-            Controls.Add(lblPlayerStats);
-            Controls.Add(lblMonsterStats);
-            Controls.Add(monsterNameLabel);
-            Controls.Add(playerNameLabel);
-            Controls.Add(monsterHealthBar);
-            Controls.Add(Monster);
-            Controls.Add(playerHealthBar);
-            Controls.Add(attackButton);
-            Controls.Add(doubleAttackButton);
-            Controls.Add(healButton);
-            Controls.Add(Cloud);
-            Controls.Add(actionLabel);
-            Controls.Add(pictureBox1);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox3);
-            DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "OctopathE5";
-            Text = "InitialFantasyE5";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)Cloud).EndInit();
-            ((System.ComponentModel.ISupportInitialize)Monster).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Jeux_E5.Properties.Resources._646a5645d72ad40dbc18fcfcebb2ff03_700x400;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.lblPlayerStats);
+            this.Controls.Add(this.lblMonsterStats);
+            this.Controls.Add(this.monsterNameLabel);
+            this.Controls.Add(this.playerNameLabel);
+            this.Controls.Add(this.monsterHealthBar);
+            this.Controls.Add(this.Monster);
+            this.Controls.Add(this.playerHealthBar);
+            this.Controls.Add(this.attackButton);
+            this.Controls.Add(this.doubleAttackButton);
+            this.Controls.Add(this.healButton);
+            this.Controls.Add(this.Cloud);
+            this.Controls.Add(this.actionLabel);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "OctopathE5";
+            this.Text = "InitialFantasyE5";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cloud)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Monster)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -297,5 +326,7 @@
         private PictureBox pictureBox3;
         private Label lblMonsterStats;
         private Label lblPlayerStats;
+        private PictureBox pictureBox4;
+        private Label label1;
     }
 }

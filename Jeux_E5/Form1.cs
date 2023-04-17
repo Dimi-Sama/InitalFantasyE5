@@ -179,7 +179,7 @@ namespace Jeux_E5
             playSimpleSound("let_the_battles_begin");
         }
 
-        private void attackButton_Click_1(object sender, EventArgs e)
+        private void attackButton_Click(object sender, EventArgs e)
         {
             EnableButtons(false); // Désactiver les boutons
             PlayerTurn();
@@ -267,6 +267,29 @@ namespace Jeux_E5
         {
             ResetGame(); // Appeler ResetGame() lorsque l'événement GameOver est déclenché
         }
-    }
 
+        private void attackButton_Click_1(object sender, EventArgs e)
+        {
+            EnableButtons(false); // Désactiver les boutons
+            PlayerTurn();
+            CheckGameOver();
+        }
+
+        private void doubleAttackButton_Click_1(object sender, EventArgs e)
+        {
+            EnableButtons(false); // Désactiver les boutons
+            player.DoubleAttack(monster, 50);
+            CheckGameOver();
+            AnimateText($"{player.Name} effectue une double attaque !");
+            UpdateHealthBars();
+        }
+
+        private void healButton_Click_1(object sender, EventArgs e)
+        {
+            EnableButtons(false); // Désactiver les boutons
+            player.Heal();
+            AnimateText($"{player.Name} se soigne !");
+            UpdateHealthBars();
+        }
+    }
 }

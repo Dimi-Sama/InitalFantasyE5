@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textbox_pieces(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textbox_pieces(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="646a5645d72ad40dbc18fcfcebb2ff03-700x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\646a5645d72ad40dbc18fcfcebb2ff03-700x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_207000106_Dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\207000106 Dead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="207000106 Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\207000106 Idle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,17 +127,20 @@
   <data name="306001303 Standby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\306001303 Standby.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="let_the_battles_begin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\let-the-battles-begin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="victory_fanfare_hd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\victory-fanfare-hd.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="_207000106_Dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\207000106 Dead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_207000106_Win_Before" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\207000106 Win Before.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="let_the_battles_begin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\let-the-battles-begin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textbox_pieces(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textbox_pieces(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="death_sound_effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\death-sound-effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_306001304_Dying" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\306001304 Dying.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +148,10 @@
   <data name="_306001304_Win" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\306001304 Win.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="death_sound_effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\death-sound-effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="646a5645d72ad40dbc18fcfcebb2ff03-700x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\646a5645d72ad40dbc18fcfcebb2ff03-700x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo portfolio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo portfolio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
