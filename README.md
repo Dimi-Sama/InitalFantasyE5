@@ -9,7 +9,7 @@ Ce projet a été développé pour démontrer mes compétences en matière de d�
 
 ## Captures d'écran
 
-![Capture d'écran du jeu](lien_vers_l'image.png)
+![Capture d'écran du jeu](https://i.imgur.com/dLUBB3Y.png)
 
 ## Fonctionnalités
 
@@ -18,8 +18,8 @@ Ce projet a été développé pour démontrer mes compétences en matière de d�
 
 ## Installation
 
-1. Cloner ce repository
-2. Ouvrir le fichier index.html dans votre navigateur préféré
+1. Télécharger la dernière Release
+2. Lancer l'executable
 
 ## Comment jouer
 
