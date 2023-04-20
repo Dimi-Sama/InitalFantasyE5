@@ -179,7 +179,7 @@ namespace Jeux_E5
             playSimpleSound("let_the_battles_begin");
         }
 
-        private void attackButton_Click(object sender, EventArgs e)
+       /* private void attackButton_Click(object sender, EventArgs e)
         {
             EnableButtons(false); // Désactiver les boutons
             PlayerTurn();
@@ -210,7 +210,7 @@ namespace Jeux_E5
             player.Heal();
             AnimateText($"{player.Name} se soigne !");
             UpdateHealthBars();
-        }
+        }*/
 
         private void CheckGameOver()
         {
@@ -290,6 +290,15 @@ namespace Jeux_E5
             player.Heal();
             AnimateText($"{player.Name} se soigne !");
             UpdateHealthBars();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Task.Run(() =>
+            {
+                System.Media.SoundPlayer effectPlayer = new System.Media.SoundPlayer(@"C:\Users\dimit\Source\Repos\StephD974\OctopathE5\Jeux_E5\Resources\ambatukam.wav");
+            effectPlayer.PlaySync();
+        });
         }
     }
 }
