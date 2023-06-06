@@ -294,11 +294,7 @@ namespace Jeux_E5
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Task.Run(() =>
-            {
-                System.Media.SoundPlayer effectPlayer = new System.Media.SoundPlayer(@"C:\Users\dimit\Source\Repos\StephD974\OctopathE5\Jeux_E5\Resources\ambatukam.wav");
-            effectPlayer.PlaySync();
-        });
+           
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Jeux_E5
         public void ResetStats()
         {
             Health = MaxHealth;
-            IsEnraged = false;
+            IsEnraged = false; 
         }
 
         public void Enrage()
